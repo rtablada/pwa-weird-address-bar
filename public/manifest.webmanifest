@@ -1,0 +1,25 @@
+{
+  "background_color": "white",
+  "description": "My PWA Webapp",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "images/circle-144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "images/circle-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/circle-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "name": "My PWA Webapp",
+  "short_name": "PWA Ex",
+  "start_url": "/"
+}

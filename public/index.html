@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="manifest" href="/manifest.webmanifest">
+</head>
+<body>
+  <p>We're running into an error where opening an alert or confirm window shows a top bar with the app name and non-interactive elements.</p>
+  <p>The buttons bellow allow this to be reproduced in a very simple app.</p>
+
+  <p id="insert-text"></p>
+
+  <button id="add-text">Add some text with no alert</button>
+  <button id="open-alert">This opens an alert</button>
+  <button id="open-confirm">This opens an confirm</button>
+
+  <script src="buttons.js"></script>
+</body>
+</html>
